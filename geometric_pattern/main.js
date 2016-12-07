@@ -19,7 +19,7 @@ function draw() {
   rVal = 255;
   gVal = 0;
   bVal = 0;
-  
+  http://gph.is/1OklBNi
   var isShifted = false;
 
   var y = height;
