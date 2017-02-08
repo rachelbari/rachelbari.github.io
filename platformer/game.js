@@ -40,6 +40,7 @@ if (isGameOver) {
     
     text("Your score was: " + score, camera.position.x, camera.position.y - 20);
     text("Game Over! Click anywhere to restart", camera.position.x, camera.position.y); 
+    text("IS THAT ALL YOU GOT JAKE", camera.position.x, camera.position.y+20); 
 }
     else {
       background(150, 200, 250);
