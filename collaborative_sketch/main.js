@@ -14,7 +14,7 @@
   function setup() {
         var canvas = createCanvas(2000, 2000);
         background(255);
-        fill(0);
+        fill(color(0, 0, 255));
         
         pointsData.on("child_added", function (point) {
         points.push(point.val());
@@ -46,6 +46,7 @@
         if (mouseIsPressed) { 
             drawPoint();
         }
+    }
         
         $("#saveDrawing").on("click", saveDrawing);
         function saveDrawing() {
@@ -58,4 +59,4 @@
             pointsData.remove();
             points = [];
         }
-    }
+        
